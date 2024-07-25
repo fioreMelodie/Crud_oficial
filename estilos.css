@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: #55346e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    font-family:Helvetica;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    background-color: #ffffff;
+    border: 2px solid #de93fc;
+    padding: 15px;
+}
+
+.table th {
+    background: #ffffff;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inicio{
+    font-family:Helvetica;
+    font: size 20px;;
+}
+
+.btn-primary {
+    background-color: #67438a;
+}
+
+.btn-success {
+    background-color:#67438a;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+} 
+#Nombre{
+    width: 75%;
+}
+
+#Apellido{
+    width: 75%;
+}
+
+#Telefono{
+    width: 75%;
+}
+
+#Edad{
+    width: 60%;
+}
+
+#Fecha_nacimiento{
+    width: 60%;
+}
